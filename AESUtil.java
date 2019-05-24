@@ -14,9 +14,9 @@ import org.apache.commons.codec.DecoderException;
 
 public enum AESUtil {
 	;
-	// 共通鍵
-	private static final String ENCRYPTION_KEY = "485de0e185028e9906e6131aaf210104";
-	private static final String ENCRYPTION_IV  = "c22bd245f41dcace6fb91c2bdf478e0f";
+	// KEY, IV
+	public static final String ENCRYPTION_KEY = "485de0e185028e9906e6131aaf210104";
+	public static final String ENCRYPTION_IV  = "c22bd245f41dcace6fb91c2bdf478e0f";
 
 	public static String encrypt(String src) {
 		try {
